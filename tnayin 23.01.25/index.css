@@ -1,0 +1,782 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+html{
+	scroll-behavior: smooth;
+}
+.obshi{
+	border: 0px solid red;
+	width: 100%;
+	height: 730px;
+}
+.verev{
+	border: 0px solid;
+	height: 60px;
+	display: flex;
+	justify-content: space-between;
+}
+.vernagir{
+	border: 0px solid black;
+	height: 100%;
+	width: 400px;
+	margin-left: 100px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.vernagir2{
+	border: 0px solid black;
+	height: 100%;
+	width: 60%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin-right: 100px;
+}
+.vernagir p{
+	font-family: sans-serif;
+	font-size: 25px;
+}
+.vernagir2 ul{
+	list-style: none;
+	display: flex;
+	gap: 30px;
+}
+.vernagir2 ul li {
+	width: fit-content;
+	height: fit-content;
+	padding: 3px 7px;
+	border-radius: 30px;
+	transition: 0.5s;
+}
+
+.vernagir2 ul li a{
+	text-decoration: none;
+	font-weight: 600;
+	color: gray;
+	font-size: 14px;
+	font-family: sans-serif;
+	transition: 0.5s;
+}
+.vernagir2 ul li:hover {
+	background: rgb(255, 210, 51 );
+}
+.vernagir2 ul li:hover a{
+	color: white;
+}
+.vernagir span{
+	color: gray;
+}
+.osobnyak{
+	border: 0px solid black;
+	width: 100%;
+	height: 671px;
+	background: url(https://img.freepik.com/free-photo/view-st-petersburg-night_1398-2737.jpg?uid=R183264383&ga=GA1.1.461188346.1737033685&semt=ais_incoming);
+	background-size: cover;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+.dzax{
+	border: 0px solid black;
+	width: 80px;
+	height: 80px;
+	backdrop-filter: brightness(50%);
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.dzax .left{
+	font-size: 25px;
+	color: white;
+}
+.mecgrac{
+	border: 0px solid red;
+	width: 700px;
+	height: 300px;
+}
+.aj{
+	border: 0px solid black;
+	width: 80px;
+	height: 80px;
+	backdrop-filter: brightness(57%);
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.aj .right{
+	font-size: 25px;
+	color: white;
+}
+.ver{
+	color: white;
+	font-family: sans-serif;
+	font-size: 30px;
+	font-weight: 10;
+	margin-left: 190px;
+	margin-top: 60px;
+}
+.zut{
+	color: white;
+	font-family: sans-serif;
+	font-size: 50px;
+	margin-left: 95px;
+	margin-top: 20px;
+}
+.agent{
+	color: white;
+	font-family: sans-serif;
+	font-size: 50px;
+	margin-left: 280px;
+}
+.yellow{
+	border: px solid red;
+	width: 100%;
+	height: 80px;
+	background: rgb(255, 210, 51 );
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.yellow p{
+	font-family: sans-serif;
+	color: white;
+	margin-right: 100px;
+
+}
+.yellow button{
+	border: 2px solid white;
+	background: transparent;
+	color: white;
+	width: 150px;
+	height: 25px;
+	margin-right: 200px;
+	transition: 0.3s;
+}
+.yellow button:hover{
+	background: black;
+	border: 2px solid black;
+}
+.seriy{
+	border: 0px solid ;
+	width: 100%;
+	height: 670px;
+	background: rgb(245, 245, 245 );
+}
+.sverx p{
+	font-size: 40px;
+	font-weight: 800;
+	color: gray;
+	font-family: sans-serif;
+}
+.something{
+	font-family: sans-serif;
+	color: gray;
+	font-size: 18px;
+}
+.something2{
+	font-family: sans-serif;
+	color: gray;
+	font-size: 18px;
+	margin-top: 10px;
+	margin-left: 80px;
+}
+.something3{
+	font-family: sans-serif;
+	font-size: 18px;
+	margin-top: 10px;
+	margin-left: 130px;
+	display: block;
+}
+.chors{
+	border: 0px solid black;
+	width: 100%;
+	height: 390px;
+	display: flex;
+	justify-content: center;
+	gap: 25px;
+}
+.mek{
+	border: 0px solid gray;
+	width: 260px;
+	height: 280px;
+	background: rgb(224, 224, 224);
+}
+.erku{
+	border: 0px solid gray;
+	width: 260px;
+	height: 280px;
+	background: rgb(224, 224, 224);
+}
+.ereq{
+	border:0px solid gray;
+	width: 260px;
+	height: 280px;
+	background: rgb(224, 224, 224);
+}
+.chetire{
+	border: 0px solid gray;
+	width: 260px;
+	height: 280px;
+	background: rgb(224, 224, 224);
+}
+.nkar{
+	border: 0px solid black;
+	width: 100%;
+	height: 150px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.nkar i{
+	font-size: 80px;
+	color: white;
+}
+.help{
+	font-family: sans-serif;
+	margin-left: 65px;
+}
+.urish{
+	font-family: sans-serif;
+	margin-top: 10px;
+	color: gray;
+	text-align: center;
+}
+.help2{
+	font-family: sans-serif;
+	margin-left: 95px;
+}
+.help3{
+	font-family: sans-serif;
+	margin-left: 75px;
+}
+.nantes{
+	border: 0px solid red;
+	width: 100%;
+	height: 590px;
+}
+.nerq{
+	border: 0px solid black;
+	width: 100%;
+	height: 450px;
+	margin-top: 40px;
+	display: flex;
+	justify-content: center;
+}
+.mejin{
+	border: 0px solid black;
+	width: 1100px;
+	height: 500px;
+}
+.up{
+	border: 0px solid black;
+	width: 100%;
+	height: 166px;
+	display: flex;
+}
+.center{
+	border: 0px solid black;
+	width: 100%;
+	height: 166px;
+	display: flex;
+}
+.end{
+	border: 0px solid black;
+	width: 100%;
+	height: 166px;
+	display: flex;
+}
+.ara{
+	border: 0px solid red;
+	width: 370px;
+	height: 100%;
+	display: flex;
+}
+.log{
+	border: 0px solid green;
+	width: 25%;
+	height: 100%;
+	display: flex;
+	justify-content: center;
+}
+.klor{
+	border: 0px solid black;
+	width: 50px;
+	height: 50px;
+	border-radius: 50%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background: rgb(224, 224, 224);
+	padding: 27px 27px;
+}
+.ognox{
+	border: 0px solid black;
+	width: 75%;
+	height: 100%;
+}
+.klor i{
+	font-size: 23px;
+	color: rgb(96, 96, 96 );
+}
+.ognox b{
+	font-family: sans-serif;
+}
+.ognox p{
+	font-family: sans-serif;
+	margin-top: 7px;
+	color: rgb(96, 96, 96 );
+}
+.portfoli{
+	border: 0px solid black;
+	width: 100%;
+	height: 880px;
+	background: rgb( 239, 239, 239  );
+}
+.something4{
+	font-family: sans-serif;
+	color: gray;
+	font-size: 18px;
+	padding: 5px 155px;
+}
+.nerq2{
+	border: 0px solid green;
+	width: 100%;
+	height: 500px;
+	margin-top: 40px;
+	display: flex;
+	justify-content: center;
+}
+.vnutr{
+	border: 0px solid black;
+	width: 1100px;
+	height: 500px;
+}
+.ynde{
+	border: 0px solid black;
+	width: 100%;
+	height: 250px;
+	display: flex;
+}
+.picture{
+	border: 0px solid black;
+	width: 366px;
+	height: 100%;
+	background: url(https://img.freepik.com/free-photo/table-setting-dinner_74190-2126.jpg?uid=R183264383&ga=GA1.1.461188346.1737033685&semt=ais_hybrid);
+	background-size: cover;
+}
+.picture2{
+	border: 0px solid black;
+	width: 366px;
+	height: 100%;
+	background: url(https://img.freepik.com/free-photo/sofa_1203-2336.jpg?uid=R183264383&ga=GA1.1.461188346.1737033685&semt=ais_hybrid);
+	background-size: cover;
+}
+.picture3{
+	border: 0px solid black;
+	width: 366px;
+	height: 100%;
+	background: url(https://img.freepik.com/free-photo/table-with-flower-vase_1203-492.jpg?uid=R183264383&ga=GA1.1.461188346.1737033685&semt=ais_hybrid);
+	background-size: cover;
+}
+.picture4{
+	border: 0px solid black;
+	width: 366px;
+	height: 100%;
+	background: url(https://img.freepik.com/free-photo/empty-modern-room-with-furniture_23-2149178350.jpg?uid=R183264383&ga=GA1.1.461188346.1737033685&semt=ais_hybrid);
+	background-size: cover;
+}
+.picture5{
+	border: 0px solid black;
+	width: 366px;
+	height: 100%;
+	background: url(https://img.freepik.com/free-photo/wooden-dining-table-against-wall-with-design-space_53876-123938.jpg?uid=R183264383&ga=GA1.1.461188346.1737033685&semt=ais_hybrid);
+	background-size: cover;
+}
+.picture6{
+	border: 0px solid black;
+	width: 366px;
+	height: 100%;
+	background: url(https://img.freepik.com/free-photo/close-up-modern-chair-desk_23-2148238655.jpg?uid=R183264383&ga=GA1.1.461188346.1737033685&semt=ais_hybrid);
+	background-size: cover;
+}
+
+.text{
+	border: 0px solid black;
+	width: 100%;
+	height: 130px;
+	display: flex;
+	justify-content: center;
+	margin-top: 50px;
+}
+.text2{
+	border: 0px solid black;
+	width: 900px;
+	height: 100%;
+
+}
+.sverx{
+	border: 0px solid black;
+	width: 100%;
+	height: 100px;
+	display: flex;
+	justify-content: center;
+	align-items: end;
+}
+.jamer{
+	border: 0px solid black;
+	width: 100%;
+	height: 120px;
+	background: rgb(40, 40, 40);
+	display: flex;
+	justify-content: center;
+}
+.miban{
+	border: 0px solid red;
+	width: 1100px;
+	height: 100%;
+	display: flex;
+	justify-content: center;
+	gap: 150px;
+}
+.one{
+	border: 0px solid white;
+	width: 120px;
+	height: 100%;
+}
+.nine{
+	color: white;
+	font-family: sans-serif;
+	font-size: 35px;
+	font-weight: 800;
+	margin-left: 45px;
+	margin-top: 30px;
+}
+.city{
+	color: white;
+	font-family: sans-serif;
+	margin-left: 32px;
+}
+.harur{
+	color: white;
+	font-family: sans-serif;
+	font-size: 35px;
+	font-weight: 800;
+	margin-left: 23px;
+	margin-top: 30px;
+}
+.work{
+	color: white;
+	font-family: sans-serif;
+	margin-left: 35px;
+}
+.six{
+	color: white;
+	font-family: sans-serif;
+	font-size: 35px;
+	font-weight: 800;
+	margin-left: 46px;
+	margin-top: 30px;
+}
+.team{
+	color: white;
+	font-family: sans-serif;
+	margin-left: 39px;
+}
+.eres{
+	color: white;
+	font-family: sans-serif;
+	font-size: 35px;
+	font-weight: 800;
+	margin-left: 35px;
+	margin-top: 30px;
+}
+.part{
+	color: white;
+	font-family: sans-serif;
+	margin-left: 34.2px;
+}
+.nor{
+	border: 0px solid black;
+	width: 100%;
+	height: 450px;
+}
+.text3{
+	border: 0px solid black;
+	width: 100%;
+	height: 90px;
+	display: flex;
+	justify-content: center;
+	margin-top: 30px;
+}
+.text4{
+	border: 0px solid black;
+	width: 900px;
+	height: 100%;
+
+}
+.partners{
+	border: 0px solid black;
+	width: 100%;
+	height: 140px;
+	display: flex;
+	justify-content: center;
+	gap: 120px;
+}
+.partners1{
+	border: 0px solid ;
+	height: 100%;
+	width: 120px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+
+}
+.partners1 i{
+	color: rgb(200, 200, 200);
+	font-size: 60px;
+}
+.xumb{
+	border: 0px solid black;
+	width: 100%;
+	height: 800px;
+	background: rgb( 239, 239, 239  );
+}
+.anel{
+	border: 0px solid black;
+	width: 100%;
+	height: 450px;
+	display: flex;
+	justify-content: center;
+	gap: 30px;
+}
+.anush{
+	border: 0px solid black;
+	height: 380px;
+	width: 350px;
+	background: white;
+}
+.kartina{
+	border: 0px solid red;
+	width: 100%;
+	height: 200px;
+	background: url(https://img.freepik.com/free-photo/horizontal-shot-brunette-woman-has-cheerful-facial-expression-leads-active-lifestyle-dressed-windbreaker-wears-stereo-headphones-poses-outside-against-blurred-background-sport-concept_273609-62278.jpg?uid=R183264383&ga=GA1.1.461188346.1737033685&semt=ais_hybrid);
+	background-size: cover;
+}
+.kartina2{
+	border: 0px solid red;
+	width: 100%;
+	height: 200px;
+	background: url(https://img.freepik.com/free-photo/group-young-people-posing-together_23-2148431287.jpg?uid=R183264383&ga=GA1.1.461188346.1737033685&semt=ais_hybrid);
+	background-size: cover;
+}
+.kartina3{
+	border: 0px solid red;
+	width: 100%;
+	height: 200px;
+	background: url(https://img.freepik.com/free-photo/portrait-smiling-young-woman-with-glasses_329181-19751.jpg?uid=R183264383&ga=GA1.1.461188346.1737033685&semt=ais_hybrid);
+	background-size: cover;
+}
+.axchik{
+	font-family: sans-serif;
+	font-size: 20px;
+	padding: 15px 110px;
+}
+.designer{
+	font-family: sans-serif;
+	font-size: px;
+	padding: 5px 139px;
+	color: gray;
+}
+.tox{
+	font-family: sans-serif;
+	padding: 5px 8px;
+}
+.tox2{
+	font-family: sans-serif;
+	padding: 0px 63px;
+}
+.soc{
+	border: 0px solid black;
+	width: 100%;
+	height: 50px;
+	margin-top: 20px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	gap: 20px;
+}
+.soc i{
+	color: rgb( 200, 200, 200  );
+	font-size: 20px;
+}
+.txa{
+	font-family: sans-serif;
+	font-size: 20px;
+	padding: 15px 125px;
+}
+.cragir{
+	font-family: sans-serif;
+	font-size: px;
+	padding: 5px 131px;
+	color: gray;
+}
+.axchik2{
+	font-family: sans-serif;
+	font-size: 20px;
+	padding: 15px 121px;
+}
+.web{
+	font-family: sans-serif;
+	font-size: px;
+	padding: 5px 123px;
+	color: gray;
+}
+.contact{
+	border: 0px solid black;
+	height: 485px;
+	width: 100%;
+	background: rgb(40, 40, 40)
+}
+.sev{
+	font-size: 40px;
+	font-weight: 800;
+	color: white;
+	font-family: sans-serif;
+
+}
+.text9{
+	border: 0px solid white;
+	width: 100%;
+	height: 130px;
+	display: flex;
+	justify-content: center;
+	margin-top: 50px;
+	color: white;
+}
+.text10{
+	border: 0px solid white;
+	width: 900px;
+	height: 100%;
+	color: white;
+
+}
+
+.sverx2{
+	border: 0px solid white;
+	width: 100%;
+	height: 100px;
+	display: flex;
+	justify-content: center;
+	align-items: end;
+}
+
+.something9{
+	font-family: sans-serif;
+	color: white;
+	font-size: 18px;
+	padding: 0px 155px;
+}
+.something5{
+	font-family: sans-serif;
+	color: white;
+	font-size: 18px;
+	padding: 5px 290px;
+}
+.verjin{
+	border: 0px solid white;
+	width: 100%;
+	height: 200px;
+	display: flex;
+	justify-content: center;
+	gap: 60px;
+}
+.textikner{
+	border: 0px solid white;
+	height: 100%;
+	width: 200px;
+}
+.textikner2{
+	border: 0px solid white;
+	height: 100%;
+	width: 450px;
+	margin-left: 40px;
+}
+.spitak{
+	color: white;
+	font-family: sans-serif;
+}
+.seriner{
+	color: gray;
+	font-family: sans-serif;
+	margin-top: 10px;
+}
+.seriner2{
+	color: gray;
+	font-family: sans-serif;
+	margin-top: 5px;
+}
+.seriner3{
+	color: gray;
+	font-family: sans-serif;
+	margin-top: 5px;
+}
+.seriner4{
+	color: gray;
+	font-family: sans-serif;
+	margin-top: 5px;
+}
+.prca{
+	border: 0px solid black;
+	height: 50px;
+	width: 100%;
+}
+.type{
+	border: 0px;
+	height: 20px;
+	width: 180px;
+	margin-top: 14px;
+	margin-left: 27px;
+}
+.prca2{
+	border: 0px solid white;
+	width: 393px;
+	height: 60px;
+	margin-left: 27px;
+}
+.type2{
+	border: 0px;
+	height: 60px;
+	width: 100%;
+}
+.knopchka{
+	border: 0px solid ;
+	background: rgb(255, 210, 51 );
+	color: white;
+	margin-top: 10px;
+	margin-left: 175px;
+	height: 22px;
+	width: 100px;
+}
+.konec{
+	border: 1px solid black;
+	height: 70px;
+	width: 100%;
+	background: black;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.konec p{
+	font-family: sans-serif;
+	color: gray;
+}
+.konec span{
+	font-family: sans-serif;
+	color: white;
+}
+.konec a{
+	color: white;
+}
